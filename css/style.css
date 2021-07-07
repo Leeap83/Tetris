@@ -26,7 +26,26 @@ header {
   text-align: center;
   margin-top: 3rem;
 }
-  
+
+.T {
+  color: red;
+}
+.e {
+  color: orange;
+}
+.t {
+  color: yellow;
+}
+.r {
+  color: green;
+}
+.i {
+  color: blue ;
+}
+.s {
+  color: purple;
+}
+
 div {
   height: 2rem;
   width: 2rem;
@@ -38,11 +57,12 @@ div {
 }
   
 .t-big {
-  font-size: 1.5em;
+  font-size: 2.5em;
+  font-weight: 600;
 }
   
 .t-wide {
-  letter-spacing: 1.5rem;
+  letter-spacing: 0.563rem;
 }
   
 .t-close {
@@ -120,7 +140,7 @@ div {
 .button {
   position: relative;
   width: 22rem;
-  height: 2.2rem;
+  height: 3.2rem;
   text-align: center;
   color: #fff;
   letter-spacing: 1px;
@@ -129,48 +149,17 @@ div {
   font-size: 10px;
   display: block;
   margin: 30px;
-  text-shadow: -1px -1px 0 #a84155;
-  background: #d25068;
-  border: 1px solid #d25068;
+  text-shadow: -1px -1px 0 #4b41a8;
+  background: #4d025f;
+  border: 1px solid #8850d2;
   width: 12rem;
-  background-image: linear-gradient(to bottom, #f66c7b, #d25068);
+  background-image: linear-gradient(to bottom, #8a6cf6, #5950d2);
   border-radius: 5px;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
-    0 -1px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 0 #ad4257,
+    0 -1px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 0 #4442ad,
     0 4px 2px rgba(0, 0, 0, 0.5);
 }
-  
-.button:before {
-  background: #f0f0f0;
-  background-image: linear-gradient(#d0d0d0, #f0f0f0);
-  border-radius: 5px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
-  position: absolute;
-  content: "";
-  left: -6px;
-  right: -6px;
-  top: -6px;
-  bottom: -10px;
-  z-index: -1;
-}
-  
-.button:active {
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
-    0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  top: 5px;
-}
-  
-.button:active:before {
-  top: -11px;
-  bottom: -5px;
-  content: "";
-}
-  
-.button:hover {
-  background: #f66c7b;
-  background-image: linear-gradient(top, #d25068, #f66c7b);
-}
-  
+
 .end {
   background-image: url(/Users/limit/development/Tetris/images/blue_block.png);
 }
